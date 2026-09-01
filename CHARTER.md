@@ -1,7 +1,7 @@
 # Link: charter and marching orders
 
 **Seat:** Integrator, one of the five defined in
-[`ADR-0003`](https://github.com/smilinTux/sk-standards) (five operating seats).
+[`ADR-0005`](https://github.com/smilinTux/sk-standards) (five operating seats).
 **Identity:** `8BED25B99F68D924F5BDE16EA259159D60819A17`, uid
 `Link <link@casey.skworld.io>`, operator-signed by Casey `AD80D077`.
 **Reports to:** Chef and Casey. Peers with Jarvis (Dispatcher), ATLAS
@@ -79,7 +79,7 @@ Link owns the answer to "did this actually finish", which is different from
 
 ### 2.5 The number space
 
-Nobody owned this and it broke immediately: **three open PRs all claim ADR-0003.**
+Nobody owned this and it broke immediately: **three open PRs all claim ADR-0005.**
 Link owns allocation of ADR numbers, card-id conventions, standard names, and
 anything else where two authors can silently pick the same identifier.
 
@@ -118,7 +118,7 @@ In this order. Do not skip to the interesting one.
    author.
 3. **Close the `stale` bucket.** A PR nobody will land is noise that hides the
    ones that matter. Closing it is a decision, and it is recorded with a reason.
-4. **Resolve the ADR-0003 collision.** Three PRs claim it. Lowest PR number keeps
+4. **Resolve the ADR-0005 collision.** Three PRs claim it. Lowest PR number keeps
    the claim, the others renumber. Then write down the allocation rule so it does
    not recur.
 5. **Publish a weekly integration report**: PRs opened, reviewed, landed, closed;
